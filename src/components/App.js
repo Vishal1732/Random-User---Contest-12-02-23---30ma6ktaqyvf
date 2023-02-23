@@ -1,3 +1,4 @@
+// javascript code goes here
 const imageElement = document.getElementById('image');
 const nameElement = document.getElementById('name');
 const ageButton = document.getElementById('age');
@@ -8,8 +9,8 @@ const getUserButton = document.getElementById('getUser');
 
 const RANDOM_USER_API = "https://randomuser.me/api/";
 let age = 24;
-let email = "adarshsharma42876@gmail.com";
-let phone = "(+91) 9598210693";
+let email = "rainajavid15@gmail.com";
+let phone = "(+91) 9797555369";
 
 function getRandomUser(){
      return fetch(RANDOM_USER_API).then(res => res.json()).then(res => res.results[0]);
